@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: rgb(226, 226, 226);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width: 90px;
+    /* width: 280px; */
+    background: #fff;
+    overflow: hidden;
+    transition: 1s;
+}
+
+nav:hover {
+    width: 280px;
+    transition: 1s;
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+    padding-bottom: 3rem;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a {
+    position: relative;
+    width: 280px;
+    font-size: 14px;
+    color: rgb(85, 83, 83);
+    display: table;
+    padding: 10px;
+}
+
+nav .fas {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+a:hover {
+    background: #eee;
+}
+
+a:hover i {
+    color: rgb(145, 10, 130);
+    transition: 0.5s;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.atas {
+    width: 100%;
+}
+
+.atas-top {
+    width: 100%;
+    background: rgb(145, 10, 130);
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #fff;
+}
+
+/* untuk bagian atas absensi */
+.main--content {
+    position: relative;
+    background: #eee;
+    top: 30px;
+    left: 30px;
+    width: 95%;
+    padding: 1rem;
+}
+
+.header--wrapper img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.header--title {
+    color: black;
+}
+
+.user--info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.searh--box {
+    background: rgb(237, 237, 237);
+    border-radius: 15px;
+    color: rgb(145, 10, 130);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+
+.searh--box input {
+    background: transparent;
+    padding: 10px;
+}
+
+.searh--box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.searh--box i:hover {
+    transform: scale(1.2);
+}
+
+
+/* untuk table absensi */
+.attendance{
+    position: relative;
+    top: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+}
+
+.attendance {
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.attendance-list {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+table thead tr {
+    color: #fff;
+    background: rgb(145, 10, 130);
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    padding: 12px 15px;
+
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background: #f3f3f3;
+}
+
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(145, 10, 130);
+}
+
+.table button {
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #06D001;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+b {
+    color: #fff;
+}
+
+
